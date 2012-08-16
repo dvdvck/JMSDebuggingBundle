@@ -23,7 +23,7 @@ use Symfony\Component\HttpKernel\Profiler\Profile;
 
 class NullProfilerStorage implements ProfilerStorageInterface
 {
-    public function find($ip, $url, $limit, $method)
+    public function find($ip, $url, $limit)
     {
         return array();
     }
